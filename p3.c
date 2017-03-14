@@ -42,8 +42,8 @@ int main(int argc, char* argv[])
     //////////////////////////////////////////////////////////////////////////////////////
     // please change this into a parallel version
 	gettimeofday(&start, NULL);
-	omp_set_num_threads(atoi(argv[1]));
-#pragma omp parallel for private(j) private(k)
+	if(argc == 2) omp_set_num_threads(atoi(argv[1]));
+    #pragma omp parallel for private(j) private(k)
 	for(i=0; i<N; i++)
 	  for(j=0; j<N; j++)
 		for(k=0; k<N; k++){
