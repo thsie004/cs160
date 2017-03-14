@@ -1,3 +1,7 @@
+/**Problem 1 for homework 4 for CS160
+ * Tung Lin Hsieh
+ * thsie004@ucr.edu
+ */
 #include "stdlib.h"
 #include "stdio.h"
 #include "omp.h"

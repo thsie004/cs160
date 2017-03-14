@@ -1,3 +1,7 @@
+/**Problem 3 for homework 4 for CS160
+ * Tung Lin Hsieh
+ * thsie004@ucr.edu
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
