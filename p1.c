@@ -26,7 +26,7 @@ int main(int argc, char* argv[]){
 
     sPi = step * sum;
 
-    printf("Sequential pi is %0.10f calculated in %f seconds\n", sPi, omp_get_wtime()-start);
+    printf("Sequential pi is %0.20f calculated in %f seconds\n", sPi, omp_get_wtime()-start);
     //end of sequential pi
 
     //OpenMP version of pi
@@ -49,7 +49,7 @@ int main(int argc, char* argv[]){
     
     ompPi *= step;
 
-    printf("OpenMP pi is %0.10f calculated in %f seconds.\n", ompPi, omp_get_wtime()-start);
+    printf("OpenMP pi is %0.20f calculated in %f seconds.\n", ompPi, omp_get_wtime()-start);
     //end of OpenMP pi
     return 0;
 }

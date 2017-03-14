@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
+#include <time.h>
+#include <omp.h>
 
 #define N 1000
 
 int initialize(double * matrix);
 int _initialize(double * matrix);
 
-int main()
+int main(int argc, char* argv[])
 {
 	int i, j, k;
 	double *A, *B, *Cs, *Cp;
@@ -40,10 +42,14 @@ int main()
     //////////////////////////////////////////////////////////////////////////////////////
     // please change this into a parallel version
 	gettimeofday(&start, NULL);
+	omp_set_num_threads(atoi(argv[1]));
+#pragma omp parallel for private(j) private(k)
 	for(i=0; i<N; i++)
 	  for(j=0; j<N; j++)
-		for(k=0; k<N; k++)
+		for(k=0; k<N; k++){
 		  Cp[i*N+j]+=A[i*N+k]*B[k*N+j];
+		}
+
 	gettimeofday(&end, NULL);
 
 	timeCost=1000000*(end.tv_sec-start.tv_sec)+(end.tv_usec-start.tv_usec);
