@@ -11,10 +11,10 @@ int main(int argc, char* argv[]){
 
     //Checks for argument
     if(argc != 2){
-        printf("Missing the number of threads as argument\n");
+        printf("Missing the number of threads as argument.\n");
         return -1;
     }else if( !( n = atoi(argv[1]) ) ){
-	    printf("Invalid argument, please enter a valid number\n");
+	    printf("Invalid argument, please enter a valid number.\n");
         return -1;
     }
 
@@ -31,7 +31,7 @@ int main(int argc, char* argv[]){
 
     sPi = step * sum;
 
-    printf("Sequential pi is %0.20f calculated in %f seconds\n", 
+    printf("Sequential pi is %0.20f calculated in %f seconds.\n", 
             sPi, omp_get_wtime()-start);
     //end of sequential pi
 

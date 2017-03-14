@@ -1,69 +1,69 @@
 ===PROBLEM 1===
   n = 1: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002842 seconds
-    OpenMP pi is 3.14159265359816153307 calculated in 0.002761 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002849 seconds.
+    OpenMP pi is 3.14159265359816153307 calculated in 0.002924 seconds.
     ---    
   n = 2: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002825 seconds
-    OpenMP pi is 3.14159265359814643404 calculated in 0.001525 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002825 seconds.
+    OpenMP pi is 3.14159265359814643404 calculated in 0.001529 seconds.
     ---    
   n = 3: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002820 seconds
-    OpenMP pi is 3.14159265359813844043 calculated in 0.001087 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002841 seconds.
+    OpenMP pi is 3.14159265359813844043 calculated in 0.001084 seconds.
     ---    
   n = 4: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002838 seconds
-    OpenMP pi is 3.14159265359812689411 calculated in 0.000860 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002816 seconds.
+    OpenMP pi is 3.14159265359812600593 calculated in 0.000869 seconds.
     ---    
   n = 5: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002822 seconds
+Sequential pi is 3.14159265359816153307 calculated in 0.002810 seconds.
     OpenMP pi is 3.14159265359812689411 calculated in 0.000750 seconds.
     ---    
   n = 6: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002826 seconds
-    OpenMP pi is 3.14159265359813266727 calculated in 0.000665 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002822 seconds.
+    OpenMP pi is 3.14159265359813266727 calculated in 0.000705 seconds.
     ---    
   n = 7: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002833 seconds
-    OpenMP pi is 3.14159265359812156504 calculated in 0.000657 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002873 seconds.
+    OpenMP pi is 3.14159265359812156504 calculated in 0.000636 seconds.
     ---    
   n = 8: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002852 seconds
-    OpenMP pi is 3.14159265359812556184 calculated in 0.000629 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002859 seconds.
+    OpenMP pi is 3.14159265359812511775 calculated in 0.000635 seconds.
     ---    
 ===============
 ===PROBLEM 2===
   n = 1: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002880 seconds
-    OpenMP pi is 3.14159265359816153307 calculated in 0.002777 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002814 seconds.
+    OpenMP pi is 3.14159265359816153307 calculated in 0.002882 seconds.
     ---    
   n = 2: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002798 seconds
-    OpenMP pi is 3.14159265359814643404 calculated in 0.001488 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002821 seconds.
+    OpenMP pi is 3.14159265359814643404 calculated in 0.001483 seconds.
     ---    
   n = 3: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002811 seconds
-    OpenMP pi is 3.14159265359813844043 calculated in 0.001061 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002834 seconds.
+    OpenMP pi is 3.14159265359813844043 calculated in 0.001058 seconds.
     ---    
   n = 4: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002822 seconds
-    OpenMP pi is 3.14159265359812689411 calculated in 0.000855 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002805 seconds.
+    OpenMP pi is 3.14159265359812689411 calculated in 0.000862 seconds.
     ---    
   n = 5: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002852 seconds
-    OpenMP pi is 3.14159265359812689411 calculated in 0.001251 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002842 seconds.
+    OpenMP pi is 3.14159265359812689411 calculated in 0.000758 seconds.
     ---    
   n = 6: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002820 seconds
-    OpenMP pi is 3.14159265359813177909 calculated in 0.000683 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002811 seconds.
+    OpenMP pi is 3.14159265359813177909 calculated in 0.000701 seconds.
     ---    
   n = 7: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002865 seconds
-    OpenMP pi is 3.14159265359812112095 calculated in 0.000658 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002807 seconds.
+    OpenMP pi is 3.14159265359812156504 calculated in 0.000662 seconds.
     ---    
   n = 8: 
-Sequential pi is 3.14159265359816153307 calculated in 0.002843 seconds
-    OpenMP pi is 3.14159265359812511775 calculated in 0.000637 seconds.
+Sequential pi is 3.14159265359816153307 calculated in 0.002806 seconds.
+    OpenMP pi is 3.14159265359812511775 calculated in 0.000654 seconds.
     ---    
 ===============
 ===PROBLEM 3===
@@ -72,63 +72,63 @@ Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 16.002387 seconds
-The parallel version of matrix multiplication costs 17.770117 seconds
+The squential version of matrix multiplication costs 16.294380 seconds
+The parallel version of matrix multiplication costs 17.767431 seconds
     ---    
   n = 2: 
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 15.883137 seconds
-The parallel version of matrix multiplication costs 11.245795 seconds
+The squential version of matrix multiplication costs 15.859332 seconds
+The parallel version of matrix multiplication costs 10.322074 seconds
     ---    
   n = 3: 
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 16.146562 seconds
-The parallel version of matrix multiplication costs 6.718134 seconds
+The squential version of matrix multiplication costs 16.013748 seconds
+The parallel version of matrix multiplication costs 7.542907 seconds
     ---    
   n = 4: 
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 16.212480 seconds
-The parallel version of matrix multiplication costs 5.996278 seconds
+The squential version of matrix multiplication costs 15.878741 seconds
+The parallel version of matrix multiplication costs 5.721767 seconds
     ---    
   n = 5: 
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 16.488971 seconds
-The parallel version of matrix multiplication costs 4.550779 seconds
+The squential version of matrix multiplication costs 15.821074 seconds
+The parallel version of matrix multiplication costs 4.582202 seconds
     ---    
   n = 6: 
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 15.862956 seconds
-The parallel version of matrix multiplication costs 3.817886 seconds
+The squential version of matrix multiplication costs 15.903862 seconds
+The parallel version of matrix multiplication costs 3.822845 seconds
     ---    
   n = 7: 
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 15.842389 seconds
-The parallel version of matrix multiplication costs 3.235395 seconds
+The squential version of matrix multiplication costs 16.317858 seconds
+The parallel version of matrix multiplication costs 3.270644 seconds
     ---    
   n = 8: 
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
 Initialized successfully!
-The squential version of matrix multiplication costs 15.882120 seconds
-The parallel version of matrix multiplication costs 2.840834 seconds
+The squential version of matrix multiplication costs 15.869346 seconds
+The parallel version of matrix multiplication costs 2.856777 seconds
     ---    
 ===============
